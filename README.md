@@ -1,6 +1,8 @@
-# EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED INTERFACE WITH ARM CONTROLLER AND PROTEUS 
-## Aim: To Interface a Digital output (LED) and Digital input (Pushbutton) to ARM development board , and simulate it in Proteus 
-## Components required: STM32 CUBE IDE, Proteus 8 simulator .
+# EXPERIMENT-03-SIMULATION OF PUSHBUTTON AND LED INTERFACE WITH ARM CONTROLLER AND PROTEUS
+## Aim:
+To Interface a Digital output (LED) and Digital input (Pushbutton) to ARM development board , and simulate it in Proteus 
+## Components required:
+STM32 CUBE IDE, Proteus 8 simulator .
 ## Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
 
@@ -45,7 +47,7 @@ interfaces Datasheet - production data Features
 8. edit the program and as per required 
 ![image](https://user-images.githubusercontent.com/36288975/226189461-a573e62f-a109-4631-a250-a20925758fe0.png)
 
-9. use project and build  
+9. use project and build 
 
 ![image](https://user-images.githubusercontent.com/36288975/226189554-3f7101ac-3f41-48fc-abc7-480bd6218dec.png)
 10. once the project is bulild 
@@ -62,7 +64,6 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 14. After creation of the circuit as per requirement as shown below 
 
 ![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
-
 14. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 ![image](https://user-images.githubusercontent.com/36288975/234186668-f21e74f6-8958-4eb2-899f-8e53770a5c06.png)
 15. click on debug and simulate using simulation as shown below 
@@ -71,6 +72,8 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 
 ## STM 32 CUBE PROGRAM :
+
+
 ```
 /* USER CODE BEGIN Header */
 /**
@@ -103,12 +106,12 @@ bool pb;
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 
-
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 /* USER CODE END PD */
+
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
@@ -127,7 +130,6 @@ static void MX_GPIO_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
-
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
@@ -258,7 +260,6 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
-
 /**
   * @brief  This function is executed in case of error occurrence.
   * @retval None
@@ -290,16 +291,22 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
 ```
+
 
 ## Output screen shots of proteus  :
 
-<img width="822" height="781" alt="Screenshot 2026-08-06 085653" src="https://github.com/user-attachments/assets/bda3b73f-5574-41d3-b4f5-6f58c8b7f188" />
-
-<img width="807" height="756" alt="Screenshot 2026-08-06 085714" src="https://github.com/user-attachments/assets/1a8c375d-acef-45f9-9886-2f17d563a840" />
+<img width="1920" height="1080" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/6c5ef994-0fba-4418-9401-588c7ea24d21" />
 
 
+ 
+
+## Proteus layout(Add pdf screen shot of circuit here)
+ 
+ <img width="1177" height="897" alt="image" src="https://github.com/user-attachments/assets/47da405f-0ac8-4ea8-94b3-334f102a1949" />
+
+ 
+ 
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
 
